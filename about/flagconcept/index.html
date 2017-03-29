@@ -11,7 +11,7 @@
     background-color: #9FB0B2;
   }
 
-  .bodytext {
+  @font-face {
     font-family: 'Apercu Mono';
     src: url('Apercu-Mono.eot');
 	  src: url('Apercu-Mono.eot?#iefix') format('embedded-opentype'),
@@ -19,6 +19,11 @@
 		url('Apercu-Mono.ttf') format('truetype');
 	  font-weight: normal;
 	  font-style: normal;
+  }
+
+
+  .bodytext {
+    font-family: 'Apercu Mono';
     font-size: 13px;
     color: white;
     width: 700px;
@@ -29,12 +34,6 @@
 
   .bodytext2 {
     font-family: 'Apercu Mono';
-    src: url('Apercu-Mono.eot');
-	  src: url('Apercu-Mono.eot?#iefix') format('embedded-opentype'),
-		url('Apercu-Mono.woff') format('woff'),
-		url('Apercu-Mono.ttf') format('truetype');
-	  font-weight: normal;
-	  font-style: normal;
     font-size: 13px;
     color: white;
     margin-left: -96%;
